@@ -715,6 +715,22 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 }
+
+/* Employment Section Styling */
+.experience-content .card .box {
+    font-size: 20px; /* Larger font size for card content */
+}
+
+.experience-content .card .text {
+    font-size: 20px; /* Larger font size for job details */
+    margin-bottom: 10px; /* Spacing below the job details */
+}
+
+.experience-content .card p {
+    font-size: 18px; /* Larger font size for job descriptions */
+    line-height: 1.6; /* Line height for readability */
+}
+
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -741,7 +757,7 @@ footer span a:hover{
     }
     .about .about-content .right .text,
     .skills  {
-        font-size: 19px;
+        font-size: 22px;
     }
     .contact .right form .fields{
         flex-direction: column;
